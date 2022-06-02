@@ -1,4 +1,4 @@
 
-FROM megMahajan/apache2
-RUN rm /var/www/html/inde.html
+FROM megmahajan/apache2
+RUN rm /var/www/html/index.html
 ADD ./index.html /var/www/html
