@@ -1,0 +1,3 @@
+FROM megmahajan/apache2
+RUN 
+ADD ./index.html /var/www/html
